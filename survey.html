@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="survey.css">
+
+<body id="title">
+	<h1 id="description">Survey Form</h1>
+	<form id="survey-form" style="width: 70%; ">
+			<p id="description">Let us know how we can improve freeCodeCamp</p>
+			 <label for="name-label"><b>Name</b></label>
+			 <input type="text" name="Enter Your Name" id="name" placeholder="Enter Your Name"><br>
+			 <label for="email-label"><b>Email</b></label>
+			  <input type="Email" name="email" id="email" placeholder="Enter Your Email"><br>
+			<label for="age-label"><b>Age</b></label>
+			<input type="number" name="quantity" id="number" min="1" max="100" placeholder="Enter Your Age"><br>
+	<p style="text-align: left;" ><b>Which option best describes your current</b><select id="dropdown">
+  <option value="Student">Student</option>
+  <option value="full time learner">Full time learner</option>
+  <option value="full time job">Full time job</option>
+  <option value="prefer not to say">Prefer not to say</option>
+  <option value="Student" selected>Student</option>
+</select><br>
+<b>role ?</b>
+</p>
+
+<p style="text-align: left;" ><b>How likely is that you would recommend </b>
+	<input type="radio" name="recommend" value="male"> Definetly
+  <input type="radio" name="recommend" value="female"> Not Sure
+  <input type="radio" name="recommend" value="other"> May be<br>
+<b>freeCodeCamp to a friend?  </b>
+</p>
+<p style="text-align: left;" ><b>Things that should be improved in the future ?
+</b></p>
+
+<input type="checkbox" name="Things" value="Front-end">Front-end projects<br>
+<input type="checkbox" name="Things" value="Back-end">Back-end Projects<br> 
+<input type="checkbox" name="Things" value="data-visualization">Data-visualization<br>
+<input type="checkbox" name="Things" value="">Additional Courses<br>
+<input type="checkbox" name="Things" value="">Open source comm.<br>
+<p style="text-align: left;" ><b>Any Comments and Suggestions ?</b></p>
+<textarea rows="4" cols="50" placeholder="Enter your Suggestions here !!"></textarea><br>
+<button class="button">Submit</button>
+</form>
+
+	
+
+</body>
+</html>
+
+
+
